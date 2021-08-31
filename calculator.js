@@ -8,7 +8,7 @@ function clearScreen(){
    
    
 function onScreen(value) {
-    if(document.getElementById("display").value.length>30)
+    if(document.getElementById("display").value.length>10)
         alert("Cannot enter more than 30 digits");
     else
         document.getElementById("display").value += value;
